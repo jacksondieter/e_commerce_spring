@@ -11,7 +11,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
@@ -46,8 +45,9 @@ public class UserOrder {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public UserOrder setId(Long id) {
 		this.id = id;
+		return null;
 	}
 
 	public List<Item> getItems() {

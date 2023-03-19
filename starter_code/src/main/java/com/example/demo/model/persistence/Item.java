@@ -60,6 +60,12 @@ public class Item {
 		return true;
 	}
 
+	public Item(String name, BigDecimal price, String description) {
+		this.name = name;
+		this.price = price;
+		this.description = description;
+	}
+
 	public Long getId() {
 		return id;
 	}
@@ -91,7 +97,5 @@ public class Item {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	
-	
 	
 }
