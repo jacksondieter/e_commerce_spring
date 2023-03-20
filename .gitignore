@@ -1,3 +1,4 @@
 .idea/
 /starter_code/target/
-/starter_code/ci/data/
+/starter_code/ci/jenkins/data/
+/starter_code/logs
