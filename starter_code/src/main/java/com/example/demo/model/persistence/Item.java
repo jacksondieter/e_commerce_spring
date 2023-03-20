@@ -60,6 +60,9 @@ public class Item {
 		return true;
 	}
 
+	public Item() {
+	}
+
 	public Item(String name, BigDecimal price, String description) {
 		this.name = name;
 		this.price = price;
